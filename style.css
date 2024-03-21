@@ -145,15 +145,15 @@ footer{
 
 @media only screen and (min-width: 1024px){
   .atomic_number{
-    font-size: 1.5vw;
+    font-size: .8vw;
   }
   .symbol{
-    font-size: 2vw;
-    margin-top: .4rem;
+    font-size: 1.6vw;
+    margin-top: .3rem;
     
   }
   .name{
-    font-size: 1vw;
+    font-size: .7vw;
     display: block;
     text-align: center;
   }
