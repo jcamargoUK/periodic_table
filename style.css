@@ -113,6 +113,15 @@ li{
   border-radius: 30px;
 }
 
+footer{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  margin:auto;
+  text-align: center;
+  font-size: .8rem;
+}
+
 
 
 
