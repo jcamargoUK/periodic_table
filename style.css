@@ -8,14 +8,14 @@ section{
   align-items: center;
 }
 .grid-container {
-  /* display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto; */
   display: flex;
   justify-content: space-evenly;
   background-color: #2196F3;
   padding: 2px;
-  width: 80vw;
+  width: 90vw;
+  height: auto;
   margin:0rem;
+  gap:2px
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
@@ -34,15 +34,80 @@ section{
   border-radius: 5px;
 }
 .atomic_number{
-  font-size: 15px;
+  font-size: 1.5vw;
   display: flex;
   margin-left: 10px;
 }
 .symbol{
-  font-size: 20px;
+  font-size: 2vw;
 }
 
 .name{
-  font-size: 13px;
+  font-size: 1vw;
+  display: none;
 }
+
+@media only screen and (min-width: 768px){
+  .atomic_number{
+    font-size: 2vw;
+  }
+  .symbol{
+    font-size: 3vw;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .atomic_number{
+    font-size: 1.5vw;
+  }
+  .symbol{
+    font-size: 2vw;
+    margin-top: .4rem;
+    
+  }
+  .name{
+    font-size: 1vw;
+    display: block;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1440px){
+  .atomic_number{
+    font-size: 1vw;
+  }
+  .symbol{
+    font-size: 1.5vw;
+    margin-top: .4rem;
+    
+  }
+  .name{
+    font-size: .9vw;
+    display: block;
+    text-align: center;
+  }
+  .grid-item, .grid-item-no-display {
+    height: 5rem;
+    width: 5.5vw;
+  } 
+  
+}
+@media only screen and (min-width: 2560px){
+  
+  .name{
+    font-size: .7vw;
+    display: block;
+    text-align: center;
+  }
+  .grid-item, .grid-item-no-display {
+    height: 8rem;
+    width: 5vw;
+  } 
+  
+}
+```
+
+
+
 
