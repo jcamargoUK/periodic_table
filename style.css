@@ -3,6 +3,7 @@
   padding:0;
   font-family:'Roboto', sans-serif;
 }
+
 section{
 	display: flex;
   flex-direction:column;
@@ -122,13 +123,25 @@ footer{
   font-size: .8rem;
 }
 
-
-
-
+.table{
+  display: none;
+}
+.table_image{
+  display: block;
+  width: 100vw;
+  margin:auto;
+  height: auto;
+}
 
 
 
 @media only screen and (min-width: 768px){
+  .table_image{
+    display: none;
+  }
+  .table{
+    display: flex;
+  }
   .atomic_number{
     font-size: 1.2vw;
     margin-left:1px
@@ -245,6 +258,7 @@ footer{
     padding: 0.6rem;
     margin-top: .7rem;
 }
+
 
 
 
