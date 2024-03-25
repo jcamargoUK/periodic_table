@@ -34,7 +34,7 @@ The project consists of the following files and directories:
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/periodic-table.git
+git clone https://github.com/jcamargoUK/periodic_table
 
 2. Open `index.html` in your preferred web browser.
 
