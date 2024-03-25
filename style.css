@@ -1,9 +1,11 @@
+/* Setting the document font family, padding and margin */
 *{
   margin:0;
   padding:0;
   font-family:'Roboto', sans-serif;
 }
 
+/* Setting the display to flex for the section */
 section{
 	display: flex;
   flex-direction:column;
@@ -13,6 +15,8 @@ h1{
   padding: 1rem;
   letter-spacing: 3px;
 }
+
+/* Container Element */
 .grid-container {
   display: flex;
   justify-content: space-evenly;
@@ -23,6 +27,8 @@ h1{
   margin:0rem;
   gap:2px
 }
+
+/* Single Item */
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 10px;
@@ -54,7 +60,6 @@ h1{
   display: none;
 }
 
-/* Gropu Setting */
 .reactive_non-metal, #reactive{
   background-color: #0000ff;
 }
@@ -134,7 +139,7 @@ footer{
 }
 
 
-
+/* Setting the media query for the different screen sizes */
 @media only screen and (min-width: 768px){
   .table_image{
     display: none;
